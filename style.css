@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+
+}
+
+.stacked-list{
+    width: 100%;
+    height: auto;
+    padding: 10rem;
+}
+
+.stacked-list-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.graphqlapi{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1rem;
+    border-width: 0 0 0.01rem 0;
+    border-style: solid;
+    border-color: #F1F2F5;
+}
+
+.left-graph{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.upper-left-graph{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.upper-left-graph h4{
+    font-weight: 600;
+    font-size: small;
+}
+
+.upper-left-graph button{
+    outline: none;
+    padding: 0.2rem;
+    font-size: x-small;
+    background-color: #EEFDF2;
+    border-radius: 0.3rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D1F0DA;
+    color: #41915C;
+    font-weight: 500;
+}
+
+.lower-left-graph{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.3rem;
+}
+
+.lower-left-graph p{
+    color: gray;
+    font-size: small;
+    font-weight: 300;
+}
+
+.lower-left-graph i.fa-circle {
+    font-size: 2px; /* Adjust the size as needed */
+    color: gray;
+}
+
+.right-graph{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.right-graph-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.8rem;
+}
+
+.right-graph-container button{
+    outline: none;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DCDFE4;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
